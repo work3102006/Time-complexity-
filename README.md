@@ -27,7 +27,7 @@ print("Shorthand Time Taken: ", end-start)
 
 # for i in range(100000):  # 0, 9
 #     list = list + [i]
-
+# the above method gives outpit in the range of a 1 second
 
 # end = time.time()  # nano seconds
 # print("Normal Operator Time Taken: ", end-start)
