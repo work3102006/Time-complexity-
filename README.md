@@ -17,6 +17,7 @@ start = time.time()  # nano seconds
 
 for i in range(1000000):  # 0, 9
     list += [i]  # 3 steps
+    # By using the above function we will get the output less than 1 second of time
 
 end = time.time()  # nano secondsclearclear
 print("Shorthand Time Taken: ", end-start)
@@ -26,6 +27,7 @@ print("Shorthand Time Taken: ", end-start)
 
 # for i in range(100000):  # 0, 9
 #     list = list + [i]
+
 
 # end = time.time()  # nano seconds
 # print("Normal Operator Time Taken: ", end-start)
